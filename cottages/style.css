@@ -1,0 +1,85 @@
+.navbar {
+    background-color: rgb(22, 41, 55);
+    /* background-color: #888; */
+    color: white;
+    font-size: 30px;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.padded-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(22, 41, 55, 0.7); /* Adjust the background color and opacity as needed */
+    text-align: right;
+    color: aliceblue;
+}
+
+.nav-link:hover {
+    color: #bca079;
+    /* color: #a3bb91; */
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-toggler {
+    background-color: white;
+
+}
+
+.navbar-toggler:hover {
+    background-color: #bca079;
+    /* background-color: #a3bb91; */
+}
+
+.secondary-colour {
+    background-color: #bca079;
+    /* background-color: #a3bb91; */
+}
+
+.secondary-text-colour {
+    color: #bca079;
+    /* color: #a3bb91; */
+}
+
+.homepage-button {
+    height: 100px;
+    width: 200px;
+    border-color: black;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+hr {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.black {
+    color: black;
+}
+
+.card {
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.card:hover {
+    background-color: rgba(22, 41, 55, 0.9);
+}
+
+.form-label {
+    color: whitesmoke;
+}
