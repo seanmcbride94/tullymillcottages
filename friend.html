@@ -26,7 +26,7 @@
         }
       </style>
 </head>
-<body style="background-color: rgba(22, 41, 55, 0.1);">
+<body>
 
   <header>
     <!-- Off-canvas wrapper Navbar -->
@@ -34,7 +34,7 @@
         aria-labelledby="navbarOffcanvasLabel" style="background-color: rgb(22, 41, 55);">
         <div class="offcanvas-header">
             <!-- <h5 class="offcanvas-title" id="navbarOffcanvasLabel">Menu</h5> -->
-            <img src="https://seanmcbride94.github.io/tullymillcottages/images/TullyMillCottagesLogo.png" alt="logo"
+            <img src="/images/TullyMillCottagesLogo.png" alt="logo"
                 style="height: 80px;" />
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
                 aria-label="Close"></button>
@@ -43,23 +43,23 @@
             <!-- Navbar links -->
             <ul class="navbar-nav">
                 <li class="nav-item pt-2">
-                    <a class="nav-link" href="https://seanmcbride94.github.io/tullymillcottages/index.html">Home</a>
+                    <a class="nav-link" href="/index.html">Home</a>
                 </li>
                 <hr>
                 <li class="nav-item pt-2">
-                    <a class="nav-link" href="https://seanmcbride94.github.io/tullymillcottages/things-to-do.html">Things to Do</a>
+                    <a class="nav-link" href="/things-to-do.html">Things to Do</a>
                 </li>
                 <hr>
                 <li class="nav-item pt-2">
-                  <a class="nav-link" href="https://seanmcbride94.github.io/tullymillcottages/cottages.html">Our Cottages</a>
+                  <a class="nav-link" href="/cottages.html">Our Cottages</a>
               </li>
               <hr>
                 <li class="nav-item pt-2">
-                    <a class="nav-link" href="https://seanmcbride94.github.io/tullymillcottages/friend.html">Become Our Friend</a>
+                    <a class="nav-link" href="/friend.html">Become Our Friend</a>
                 </li>
                 <hr>
                 <li class="nav-item pt-2">
-                    <a class="nav-link" href="https://seanmcbride94.github.io/tullymillcottages/location.html">Find Us</a>
+                    <a class="nav-link" href="/location.html">Find Us</a>
                 </li>
                 <hr>
                 <li class="nav-item pt-2">
@@ -75,7 +75,7 @@
                 </li>
                 <hr>
                 <li class="nav-item pt-2">
-                    <a class="nav-link" href="https://seanmcbride94.github.io/tullymillcottages/contact.html">Contact Us</a>
+                    <a class="nav-link" href="/contact.html">Contact Us</a>
                 </li>
                 <hr>
             </ul>
@@ -84,48 +84,52 @@
 
     
 <!-- Navbar -->
-    <nav class="navbar text-sm-center"> <!--justify-content-center text-sm-center -->
-        <div class="container">
-            <div class="col-12 col-md-3">
-                <div class="d-flex flex-column align-items-center">
-                <a href="https://seanmcbride94.github.io/tullymillcottages/index.html"><img src="https://seanmcbride94.github.io/tullymillcottages/images/TullyMillCottagesLogo.png" alt="logo" style="height: 80px;"/></a>
+<div class="row primary-colour page-nav">
+    <div class="col-md-3 align-items-center d-flex flex-column p-2">
+        <a href="/index.html"><img src="images/TullyMillCottagesLogo.png" alt="logo"
+            style="height: 70px;" /></a>
+    </div>
+    <div class="col-md-3">
+        <div class="text-center main-colour pt-4 rounded-0" style="font-size: 22px;">
+        <p class="nav-text bordered-link">BOOK DIRECT FOR BEST RATE</p>
+        </div>
+    </div> <!-- Add a blank column to center the content -->
+    <div class="col-md-6">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-4">
+                <div class="text-center main-colour pt-4 pb-4 rounded-0" style="font-size: 22px;">
+                    <a class="nav-link bordered-link" href="/offers.html">OFFERS</a>
                 </div>
             </div>
-            <div class="col-12 col-md-3">
-                <div class="d-flex flex-column align-items-center">
-                <a class="nav-link bordered-link" href="https://seanmcbride94.github.io/tullymillcottages/cottages.html">OUR COTTAGES</a>
+            <div class="col-md-4">
+                <div class="text-center main-colour pt-4 pb-4 rounded-0" style="font-size: 22px;">
+                    <a class="nav-link bordered-link" href="https://hotels.cloudbeds.com/en/reservation/AGLiSm?">MAKE A BOOKING</a>
                 </div>
             </div>
-            <div class="col-12 col-md-3">
-                <div class="d-flex flex-column align-items-center">
-                <a class="nav-link" href="https://hotels.cloudbeds.com/en/reservation/AGLiSm">MAKE A BOOKING</a>
-            </div>
-            </div>
-            <div class="col-12 col-md-3">
-                <div class="d-flex flex-column align-items-center">
-                <!-- Navbar toggler button for off-canvas -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#navbarOffcanvas" aria-controls="navbarOffcanvas">
-                    <span class="navbar-toggler-icon"></span>
-                    <!-- <span class="material-symbols-outlined">menu</span> -->
-                </button>
+            <div class="col-md-3 mt-3">
+                <div class="text-center main-colour pb-2 rounded-0">
+                    <div class="menu-btn nav-link toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#navbarOffcanvas" aria-controls="navbarOffcanvas">
+                        
+                        <span class="material-symbols-outlined" style="font-size: 45px;">menu</span>
+                    </div>
                 </div>
             </div>
         </div>
-    </nav>
+    </div>
+</div>
 
 </header>
 <!--End of navbar-->
 
-    <img src="https://seanmcbride94.github.io/tullymillcottages/images/Tully_Mill-9.JPG" class="img-fluid image"
-            alt="Tapas at Tully Mill" /> 
+    <!--Main Image-->
+    <img src="/images/Tully_Mill-9.JPG" class="img-fluid image"
+            alt="Tully Mill Restaurant" /> 
 
     <div class="container text-center mt-5">
         <h1 class="secondary-text-colour">WANT TO GET MORE FROM YOUR TULLY MILL EXPERIENCE?</h1>
         <h3 class="secondary-text-colour">SIGN UP TO OUR MAIL LISTING AND RECEIVE OFFERS BEFORE ANYONE ELSE!</h3>
-        <p class="black">By signing up, you get benifits from all our locations including <a href="http://www.tullymill.com" class="black"><b>Tully Mill Restaurant</b></a>, <a href="http://www.lillyannes.com/index.php" class="black"><b>Lilly Anne's</b></a> and all our amazing 
-          franchises within <a href="http://www.nifoods.com" class="black"><b>Ni Foods ltd.</b></a> This gives you the chance to order our highly praised Christmas Hampers before anyone else, and on your birthday we will treat you to a <b>FREE</b> 
-          glass of prossecco or wine when you book your birthday in Tully Mill Restaurant.**</p>
     </div>
 
     
@@ -189,50 +193,28 @@
                 </div>
         </form>
     </div> -->
+
+    
     <div class="container mt-2 mb-2">
       <div class="row">
         <div class="ml-embedded" data-form="8cXmw5"></div>
       </div>
     </div>
 
+    <div class="container text-center mt-5">
+        <p class="secondary-text-colour">By signing you get benifits from all our locations including <a href="http://www.tullymill.com" class="black"><b>Tully Mill Restaurant</b></a>, <a href="http://www.lillyannes.com/index.php" class="black"><b>Lilly Anne's</b></a> and all our amazing 
+          franchises within <a href="http://www.nifoods.com" class="black"><b>Ni Foods ltd.</b></a> This gives you the chance to order our highly praised Christmas Hampers before anyone else, and on your birthday we will treat you to a <b>FREE</b> 
+          glass of prossecco or wine when you book your birthday in Tully Mill Restaurant.**</p>
+    </div>
+
+    
     <div class="container">
-        <p class="black"><a href="https://seanmcbride94.github.io/tullymillcottages/privacy.html">Our Privacy Policy</a></p>
-        <p class="black">*Mandatory Feild</p>
+        <p class="black"><a href="/privacy.html">Our Privacy Policy</a></p>
+        <p class="black">*Manditory Feild</p>
         <p class="black">**You must sign up with us two months before your birthday to qualify for the free drink.</p>
     </div>
 
     <!--Start of booking footer-->
-    <!-- <div style="background-color: rgb(22, 41, 55)">
-      <div class="container p-2 mb-3 mt-3 align-items-center text-center mx-auto">
-          <form action="https://hotels.cloudbeds.com/en/reservation/AGLiSm" target="_blank" method="post" autocomplete="off" class="row text-center">
-              <input type="hidden" name="date_format" value="d/m/Y">
-              
-              <div class="col-12 col-md-6 p-2">
-                  <label class="control-label" for="widget_date_3697" title="Check In">Check In</label>
-                  <div class="input-group">
-                      <input type="date" class="form-control date rounded-0" name="widget_date" id="widget_date_3697" value="">
-                      <input type="date" name="start_date_mobile" class="form-control date_mobile widget_hide rounded-0" id="widget_date_mobile">
-                  </div>
-              </div>
-              
-              <div class="col-12 col-md-6 p-2">
-                  <label class="control-label" for="widget_date_to365" title="Check Out">Check Out</label>
-                  <div class="input-group">
-                      <input type="date" class="form-control date rounded-0" name="widget_date_to" id="widget_date_to365" value="">
-                      <input type="date" name="end_date_mobile" class="form-control date_mobile widget_hide rounded-0" id="end_date_mobile">
-                  </div>
-              </div>
-              
-              <div class="col-12 col-md-12 p-2">
-                  <button type="submit_link" class="card mx-auto align-items-center secondary-colour px-5 border border-light rounded-0" target="_blank" href="https://hotels.cloudbeds.com/en/reservation/AGLiSm#checkin=2024-01-24&amp;checkout=2024-01-31">                       
-                      <span class="material-symbols-outlined">
-                          calendar_month
-                          </span> SEARCH
-                  </button>
-              </div>
-          </form>
-      </div>
-      </div> -->
       <div class="container p-2 mb-3 mt-3 align-items-center text-center mx-auto" style="background-color: rgb(22, 41, 55);">
         <div class="row">
             <h3 class="secondary-text-colour">CHECK AVAILABILITY</h3>
@@ -256,7 +238,7 @@
           <!-- Section 1 start -->
           <div class="col-12 col-md-3 mt-4">
               <div class="d-flex flex-column align-items-center">
-                  <img src="https://seanmcbride94.github.io/tullymillcottages/images/TullyMillCottagesLogo.png" alt="logo" style="height: 80px; width: auto; max-width: 100%;" />
+                  <img src="/images/TullyMillCottagesLogo.png" alt="logo" style="height: 80px; width: auto; max-width: 100%;" />
                   <p class="mt-3 text-center">© 2024 Company, Inc. All rights reserved.</p>
               </div>
           </div>
@@ -280,7 +262,7 @@
           <div class="col-12 col-md-3 mb-4 mt-3">
               <div class="d-flex flex-column align-items-center">
                   <a href="http://www.tullymill.com"><img src="https://seanmcbride94.github.io/tullymill2/images/LogoDark-01-012.png" alt="Image 1" style="height: 80px; width: auto; max-width: 100%; margin-bottom: 10px;"></a>
-                  <a href="http://www.lillyannes.com/index.php"><img src="https://seanmcbride94.github.io/tullymillcottages/images/extracopy.png" alt="Image 2" style="height: 150px; width: auto; max-width: 100%;"></a>
+                  <a href="http://www.lillyannes.com/index.php"><img src="/images/extracopy.png" alt="Image 2" style="height: 150px; width: auto; max-width: 100%;"></a>
               </div>
           </div>
           <!--Section 3 End-->
